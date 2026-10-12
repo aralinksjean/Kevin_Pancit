@@ -1,8 +1,8 @@
 /**
  * Centralized branding & restaurant configuration for Kevin's Panciteria.
  * Edit the values below to rebrand the site — every page reads from this single object.
- * Leave a value empty ("") or null when the real information has not been provided yet;
- * the site will hide placeholders gracefully instead of showing fake details.
+ * Phone, email, hours, and social links below are placeholder/demo values — replace with real details when available.
+ * Leave a value empty ("") or null to hide a field gracefully instead of showing it.
  */
 const SITE_CONFIG = {
   restaurantName: "Kevin's Panciteria",
@@ -17,20 +17,20 @@ const SITE_CONFIG = {
 
   contact: {
     address: "P.F. Alviar, Vintar, Ilocos Norte, Philippines",
-    phone: "",
-    email: "",
+    phone: "+63 917 123 4567",
+    email: "hello@kevinspanciteria.ph",
     // Google Maps (or similar) directions URL — shown only when provided.
     mapUrl: "https://www.google.com/maps/search/?api=1&query=P.F.+Alviar%2C+Vintar%2C+Ilocos+Norte%2C+Philippines"
   },
 
   hours: [
-    { day: "Monday – Friday", time: "" },
-    { day: "Saturday – Sunday", time: "" }
+    { day: "Monday – Friday", time: "10:00 AM – 9:00 PM" },
+    { day: "Saturday – Sunday", time: "9:00 AM – 10:00 PM" }
   ],
 
   social: {
-    facebook: "",
-    instagram: "",
-    tiktok: ""
+    facebook: "https://facebook.com/kevinspanciteria",
+    instagram: "https://instagram.com/kevinspanciteria",
+    tiktok: "https://tiktok.com/@kevinspanciteria"
   }
 };
