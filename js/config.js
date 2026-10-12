@@ -16,11 +16,11 @@ const SITE_CONFIG = {
   },
 
   contact: {
-    address: "",
+    address: "P.F. Alviar, Vintar, Ilocos Norte, Philippines",
     phone: "",
     email: "",
     // Google Maps (or similar) directions URL — shown only when provided.
-    mapUrl: ""
+    mapUrl: "https://www.google.com/maps/search/?api=1&query=P.F.+Alviar%2C+Vintar%2C+Ilocos+Norte%2C+Philippines"
   },
 
   hours: [

@@ -66,7 +66,7 @@ Edit `js/config.js`. Every page reads from this single file:
 - `hours` — array of `{ day, time }` entries
 - `social.facebook`, `social.instagram`, `social.tiktok`
 
-Any field left empty is automatically hidden on the site instead of showing fake information.
+Any field left empty is automatically hidden on the site instead of showing fake information. The restaurant address is currently set to **P.F. Alviar, Vintar, Ilocos Norte**, with `contact.mapUrl` pointing to a Google Maps search for that address — update both if the location changes.
 
 ### Colors / theme
 Edit the CSS custom properties at the top of `css/style.css`:
@@ -107,7 +107,7 @@ Edit `data/menu.json`. Each dish uses this structure:
   "culturalNote": "..."
 }
 ```
-- Use `null` for a price that hasn't been set yet (the site will show "Price coming soon").
+- Use `null` for a price that hasn't been set yet (the site will show "Price coming soon"). Current prices are rough averages gathered from public Philippine panciteria/restaurant menus online — replace with your actual prices once finalized.
 - `js/menu.js` contains a small `FALLBACK_MENU` array that mirrors `data/menu.json`, used only if the JSON file can't be fetched (e.g. opened via `file://`). Keep it in sync if you change the dish list.
 
 ## Testing Checklist
