@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="t3 d3">
+  <title id="t3">Pancit Malabon placeholder photo</title>
+  <desc id="d3">Temporary placeholder graphic — replace with a real photograph in assets/images/.</desc>
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9622b"/>
+      <stop offset="100%" stop-color="#7a2e12"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg3)"/>
+  <circle cx="300" cy="190" r="150" fill="#fff3df" opacity="0.92"/>
+  <circle cx="250" cy="170" r="14" fill="#d9622b" opacity="0.8"/>
+  <circle cx="330" cy="150" r="10" fill="#1f4e3d" opacity="0.7"/>
+  <circle cx="360" cy="210" r="12" fill="#d9622b" opacity="0.7"/>
+  <path d="M160 220 Q230 170 300 220 T440 220" stroke="#b84f1f" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M160 255 Q230 205 300 255 T440 255" stroke="#7a2e12" stroke-width="12" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <rect x="0" y="340" width="600" height="60" fill="rgba(0,0,0,0.35)"/>
+  <text x="300" y="368" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#fffaf0">Pancit Malabon</text>
+  <text x="300" y="392" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#fffaf0" opacity="0.85">Placeholder photo — replace in assets/images/</text>
+</svg>

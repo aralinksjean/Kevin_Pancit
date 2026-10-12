@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kevin's Panciteria — A Taste of the Philippines, One Pancit at a Time</title>
+  <meta name="description" content="Kevin's Panciteria celebrates the Philippines' many pancit traditions — from Pancit Canton to Pancit Malabon — in one warm, welcoming menu.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container navbar">
+      <a href="index.html" class="brand">
+        <img src="" alt="" id="brandLogoImg" class="brand-logo-img" hidden>
+        <span class="brand-wordmark">Kevin&rsquo;s Panciteria</span>
+      </a>
+      <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+        <span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="primary-nav" id="primaryNav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="index.html#heritage">Pancit Heritage</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="menu.html" class="btn btn-accent nav-cta">Explore Our Menu</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero" id="home">
+      <div class="container">
+        <div class="hero-content">
+          <p class="section-eyebrow">Kevin&rsquo;s Panciteria</p>
+          <h1>A Taste of the Philippines, One Pancit at a Time.</h1>
+          <p class="hero-subtext">Discover the rich flavors, regional traditions, and comforting noodle dishes that bring Filipino families together.</p>
+          <div class="hero-actions">
+            <a href="menu.html" class="btn btn-accent">Explore Our Menu</a>
+            <a href="#heritage" class="btn btn-outline">Discover Our Heritage</a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="assets/images/hero-pancit.svg" alt="A steaming plate of Filipino pancit noodles, garnished and ready to serve" width="600" height="420">
+        </div>
+      </div>
+    </section>
+
+    <section id="featured-dishes">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">From Our Kitchen</p>
+          <h2>Featured Pancit Dishes</h2>
+          <p>A sampling of the pancit traditions we celebrate — explore the full menu for details on each dish.</p>
+        </div>
+        <div class="dish-grid" id="homeFeaturedGrid"></div>
+      </div>
+    </section>
+
+    <section class="heritage" id="heritage">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Pancit Heritage</p>
+          <h2>Every Region Has a Pancit Story.</h2>
+          <p>Across the Philippines, pancit is more than a noodle dish — it's part of birthdays, fiestas, rainy afternoons, and everyday family meals. Each region has shaped pancit with its own local ingredients and traditions.</p>
+        </div>
+        <div class="heritage-grid">
+          <article class="heritage-card">
+            <img src="assets/images/heritage-luzon.svg" alt="Illustration representing Luzon's pancit traditions" loading="lazy">
+            <div class="heritage-card-body">
+              <h3>Luzon</h3>
+              <p>Home to festive favorites like Pancit Palabok and Pancit Malabon, often served at fiestas and family celebrations across the island.</p>
+            </div>
+          </article>
+          <article class="heritage-card">
+            <img src="assets/images/heritage-visayas.svg" alt="Illustration representing the Visayas' pancit traditions" loading="lazy">
+            <div class="heritage-card-body">
+              <h3>Visayas</h3>
+              <p>Iloilo's Pancit Molo reflects the region's long-standing Chinese-Filipino culinary influence, turning noodles into delicate dumpling soup.</p>
+            </div>
+          </article>
+          <article class="heritage-card">
+            <img src="assets/images/heritage-mindanao.svg" alt="Illustration representing regional pancit traditions beyond Luzon and the Visayas" loading="lazy">
+            <div class="heritage-card-body">
+              <h3>Beyond the Islands</h3>
+              <p>From Cagayan's Batil Patung to Quezon's hand-eaten Habhab, every community has adapted pancit to its own local flavors and customs.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about-preview">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">About Us</p>
+          <h2>Welcome to Kevin&rsquo;s Panciteria</h2>
+          <p>Kevin&rsquo;s Panciteria is a restaurant concept dedicated to celebrating the many pancit traditions of the Philippines, from everyday classics to treasured regional specialties. Our full story, location, and history are coming soon.</p>
+          <a href="about.html" class="btn btn-outline">Learn More About Us</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-preview" class="heritage">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-eyebrow">Visit Us</p>
+          <h2>Get In Touch</h2>
+          <p>Our contact details will appear here once confirmed. In the meantime, here's what to expect.</p>
+        </div>
+        <div class="contact-info-card" style="max-width:520px; margin:0 auto;">
+          <ul class="contact-info-list">
+            <li data-contact-row="address" hidden><span class="footer-icon" aria-hidden="true">📍</span><span data-contact-value></span></li>
+            <li data-contact-row="phone" hidden><span class="footer-icon" aria-hidden="true">📞</span><a href="#" data-contact-value></a></li>
+            <li data-contact-row="email" hidden><span class="footer-icon" aria-hidden="true">✉️</span><a href="#" data-contact-value></a></li>
+          </ul>
+          <p class="form-note" data-contact-placeholder>Address, phone, and hours will be published here once finalized. Please check back soon.</p>
+          <a href="contact.html" class="btn btn-primary">Full Contact Details</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-wordmark">Kevin&rsquo;s Panciteria</span>
+        <p>Celebrating the Philippines&rsquo; pancit traditions, one noodle at a time.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Our Menu</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h3>Visit Us</h3>
+        <ul class="footer-contact">
+          <li data-contact-row="address" hidden><span class="footer-icon" aria-hidden="true">📍</span><span data-contact-value></span></li>
+          <li data-contact-row="phone" hidden><span class="footer-icon" aria-hidden="true">📞</span><a href="#" data-contact-value></a></li>
+          <li data-contact-row="email" hidden><span class="footer-icon" aria-hidden="true">✉️</span><a href="#" data-contact-value></a></li>
+        </ul>
+        <p class="footer-placeholder-note" data-contact-placeholder>Contact details coming soon.</p>
+      </div>
+      <div class="footer-col">
+        <h3>Follow Us</h3>
+        <ul class="footer-social">
+          <li><a href="#" data-social-link="facebook" hidden>Facebook</a></li>
+          <li><a href="#" data-social-link="instagram" hidden>Instagram</a></li>
+          <li><a href="#" data-social-link="tiktok" hidden>TikTok</a></li>
+        </ul>
+        <p class="footer-placeholder-note" data-social-placeholder>Social links coming soon.</p>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; <span id="currentYear"></span> Kevin's Panciteria. All rights reserved.</p>
+      <p class="footer-disclaimer">Temporary branding &amp; placeholder content — official details coming soon.</p>
+    </div>
+  </footer>
+
+  <div class="modal" id="dishModal" hidden role="dialog" aria-modal="true" aria-labelledby="modalDishName">
+    <div class="modal-backdrop"></div>
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Close dish details">&times;</button>
+      <img src="" alt="" id="modalDishImage" class="modal-image">
+      <div class="modal-meta-row">
+        <span class="badge badge-featured" id="modalDishAvailability">Available</span>
+        <span class="dish-region" id="modalDishCategory"></span>
+      </div>
+      <h2 id="modalDishName"></h2>
+      <p class="dish-region" id="modalDishRegion"></p>
+      <p id="modalDishDescription"></p>
+      <p class="dish-price" id="modalDishPrice"></p>
+      <div class="modal-section">
+        <h4>Ingredients</h4>
+        <ul id="modalDishIngredients"></ul>
+      </div>
+      <div class="modal-section">
+        <h4>Allergen Information</h4>
+        <ul id="modalDishAllergens"></ul>
+      </div>
+      <div class="modal-section">
+        <h4>Cultural Note</h4>
+        <p id="modalDishNote" class="muted"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/menu.js"></script>
+</body>
+</html>

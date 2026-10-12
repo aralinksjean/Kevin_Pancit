@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="tv dv">
+  <title id="tv">Visayas pancit heritage illustration</title>
+  <desc id="dv">Temporary placeholder graphic representing the Visayas' pancit traditions.</desc>
+  <defs>
+    <linearGradient id="bgv" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6e8c8"/>
+      <stop offset="100%" stop-color="#1f4e3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="480" height="300" fill="url(#bgv)"/>
+  <circle cx="240" cy="150" r="110" fill="#fffaf0" opacity="0.9"/>
+  <circle cx="210" cy="140" r="20" fill="#e8c468" opacity="0.9"/>
+  <circle cx="270" cy="160" r="16" fill="#d9622b" opacity="0.8"/>
+  <text x="240" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#1f4e3d">Visayas</text>
+</svg>
